@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Environment
+.env
+conda-envs/
+conda-pkgs/
+pip-tmp/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.safetensors
+
+# Editor
+.vscode/
