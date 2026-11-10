@@ -17,3 +17,6 @@ pip-tmp/
 
 # Editor
 .vscode/
+
+# C++ build outputs
+/build/
