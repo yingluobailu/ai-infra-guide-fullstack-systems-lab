@@ -21,3 +21,4 @@ pip-tmp/
 # C++ build outputs
 /build/
 /build/
+.clangd
