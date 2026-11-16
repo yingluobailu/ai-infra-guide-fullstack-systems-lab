@@ -22,3 +22,32 @@ pip-tmp/
 /build/
 /build/
 .clangd
+
+# Secrets and credentials
+*.pem
+*.key
+.env.*
+!.env.example
+*token*
+*secret*
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Compiled binaries and objects
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.bin
+
+# Python distribution
+dist/
+*.egg-info/
+
+# CUDA build artifacts
+*.cubin
+*.fatbin
+*.ptx
